@@ -14,15 +14,22 @@ const contactInfo = [
   "vikasbhardwaj2108@gmail.com",
 ]
 
+const socialMedia = [
+  "https://www.facebook.com/blessinghomesrealty1",
+  "https://www.instagram.com/blessinghomesrealty/",
+]
+
 
 function App() {
 
-  const [address, phone, email] = contactInfo
+  const [address, phone, email] = contactInfo;
+
+  const [facebookLink, instagramLink] = socialMedia;
 
   return (
     <>
     <BrowserRouter>
-      <Header />
+      <Header phone={phone} email={email} facebookLink={facebookLink} instagramLink={instagramLink} />
       <Routes>
         <Route path='/' exact element={<Home />} />
         <Route path='about-us' exact element={<About />} />

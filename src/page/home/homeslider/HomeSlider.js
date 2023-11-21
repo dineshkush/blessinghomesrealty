@@ -1,59 +1,61 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
+import "./HomeSlider.css";
 
 function HomeSlider() {
   return (
-    <section>
+    <section className="home_banner">
       <div id="carouselExampleCaptions" className="carousel slide">
-        <div className="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            className="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://cofynd-staging.s3.ap-south-1.amazonaws.com/images/original/ac3a7c2b952f539f496b35acf443725bbd30fb86.jpg" className="d-block w-100" alt="Slide 1" />
+            <img
+              src="https://cofynd-staging.s3.ap-south-1.amazonaws.com/images/original/ac3a7c2b952f539f496b35acf443725bbd30fb86.jpg"
+              className="d-block w-100"
+              alt="Slide 1" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
+              <div className="banner_content">
+                <h3>
+                Unlock Your Dream Home.
+                </h3>
+                <p>
+                  You will be moving in the right direction with Blessing
+                  Homes Realty.
+                </p>
+                <Link
+                  className="btn site_btn border_btn"
+                  to="/book-inspection"
+                  tabIndex="0"
+                >
+                  Make An Enquiry
+                </Link>
+              </div>
             </div>
           </div>
           <div className="carousel-item">
-            <img src="https://cofynd-staging.s3.ap-south-1.amazonaws.com/images/original/ac3a7c2b952f539f496b35acf443725bbd30fb86.jpg" className="d-block w-100" alt="Slide 2" />
+            <img
+              src="https://cofynd-staging.s3.ap-south-1.amazonaws.com/images/original/ac3a7c2b952f539f496b35acf443725bbd30fb86.jpg"
+              className="d-block w-100"
+              alt="Slide 2" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
+              <div className="banner_content">
+                <h3>
+                Your Guide to Home Sweet Home
+                </h3>
+                <p>
+                  Creating quality urban lifestyles, building stronger
+                  communities.
+                </p>
+                <Link
+                  className="btn site_btn border_btn"
+                  to="/book-inspection"
+                  tabIndex="0"
+                >
+                  Make An Enquiry
+                </Link>
+              </div>
             </div>
           </div>
-          <div className="carousel-item">
-            <img src="https://cofynd-staging.s3.ap-south-1.amazonaws.com/images/original/ac3a7c2b952f539f496b35acf443725bbd30fb86.jpg" className="d-block w-100" alt="Slide 3" />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
-            </div>
-          </div>
+          
         </div>
         <button
           className="carousel-control-prev"
@@ -81,7 +83,7 @@ function HomeSlider() {
         </button>
       </div>
     </section>
-  )
+  );
 }
 
-export default HomeSlider
+export default HomeSlider;
