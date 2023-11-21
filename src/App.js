@@ -8,15 +8,16 @@ import Project from './page/project/Project';
 import Contact from './page/contact/Contact';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-// const contactInfo = [
-//   "+919896442289",
-//   "info@housemaster.in",
-// ]
+const contactInfo = [
+  "Landmark Cyber Park, 3rd Floor, Sector 67, Gurugram, Haryana 122102",
+  "+919650000943",
+  "vikasbhardwaj2108@gmail.com",
+]
 
 
 function App() {
 
-  // const [phone, email] = contactInfo
+  const [address, phone, email] = contactInfo
 
   return (
     <>
@@ -28,7 +29,7 @@ function App() {
         <Route path='our-project' exact element={<Project />} />
         <Route path='contact-us' exact element={<Contact />} />
       </Routes>
-      <Footer />
+      <Footer address={address} phone={phone} email={email} />
     </BrowserRouter>
     </>
   );
