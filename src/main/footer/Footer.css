@@ -72,3 +72,17 @@ footer p, footer a, footer h4, footer li, footer strong {
     margin-bottom: 0px;
     text-align: center;
 }
+
+
+
+@media (max-width:480px) {
+    .our_project_sec {
+        padding: 80px 0px;
+    }
+    .footer_nav {
+        margin-bottom: 40px;
+    }
+    .footer_contact_info {
+        margin-bottom: 40px;
+    }
+}

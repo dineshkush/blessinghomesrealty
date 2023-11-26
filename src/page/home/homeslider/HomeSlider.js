@@ -12,7 +12,7 @@ function HomeSlider() {
               src="https://cofynd-staging.s3.ap-south-1.amazonaws.com/images/original/ac3a7c2b952f539f496b35acf443725bbd30fb86.jpg"
               className="d-block w-100"
               alt="Slide 1" />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-md-block">
               <div className="banner_content">
                 <h3>
                 Unlock Your Dream Home.
@@ -36,7 +36,7 @@ function HomeSlider() {
               src="https://cofynd-staging.s3.ap-south-1.amazonaws.com/images/original/ac3a7c2b952f539f496b35acf443725bbd30fb86.jpg"
               className="d-block w-100"
               alt="Slide 2" />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-md-block">
               <div className="banner_content">
                 <h3>
                 Your Guide to Home Sweet Home

@@ -13,17 +13,17 @@ function Home() {
       <section className="counter_area">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-4">
               <div className="counter_item text-center">
                 <Counter number={756} title="Property Sell" />
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-4">
               <div className="counter_item text-center">
                 <Counter number={680} title="Happy Clients" />
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-4">
               <div className="counter_item text-center">
                 <Counter number={12} title="No. Of Sites" />
               </div>

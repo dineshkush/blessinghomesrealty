@@ -68,3 +68,10 @@
     margin-top: 8px;
     display: inline-block;
 }
+
+
+@media (max-width: 480px) {
+    .our_project_sec {
+        padding: 40px 0px;
+    }
+}

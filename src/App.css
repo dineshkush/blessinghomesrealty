@@ -39,3 +39,16 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 44px;
   text-transform: capitalize;
 }
+
+
+@media (max-width:480px) {
+  *, body, p, a {
+    font-size: 12px;
+    list-style: 14px;
+    color: #111;
+  }
+  .site_title h3 {
+    font-size: 25px;
+    line-height: 35px;
+}
+}

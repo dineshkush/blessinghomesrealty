@@ -86,3 +86,22 @@ li.nav-item.request_call_back {
     line-height: 22px;
     font-weight: 600;
 }
+
+
+@media (max-width: 480px) {
+    .top_header {
+        display: none;
+    }
+    button.navbar-toggler {
+        box-shadow: none !important;
+    }
+    div#navbarSupportedContent {
+        position: absolute;
+        top: 52px;
+        z-index: 9;
+        background-color: #fff;
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+}

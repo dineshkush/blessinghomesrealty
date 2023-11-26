@@ -69,3 +69,44 @@
 .home_banner .carousel-indicators [data-bs-target] {
     background-color: #071c1f;
 }
+
+
+@media (max-width: 480px) {
+    .home_banner .carousel-item {
+        height: 400px;
+    }
+    .home_banner .carousel-item img {
+        height: 400px;
+    }
+    .home_banner .carousel-item .carousel-caption {
+        bottom: 7%;
+        padding: 0px;
+    }
+    .home_banner .carousel-control-next, .home_banner .carousel-control-prev {
+        width: 24px !important;
+        height: 20px;
+    }
+    .banner_content h3 {
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .banner_content p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .banner_content .site_btn {
+        margin-top: 0px;
+    }
+    .site_btn {
+        background-color: #de9e53 !important;
+        border: 1px solid #de9e53 !important;
+        color: #fff;
+        padding: 8px 12px;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400;
+        border-radius: 10px;
+        transition: all 0.5s;
+    }
+}

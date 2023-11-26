@@ -14,3 +14,18 @@
     font-weight: 500;
     margin-bottom: 0px;
 }
+
+@media (max-width:480px) {
+    .counter_item h5 {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .counter_item .counter {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .counter_area {
+        background-color: #de9e53;
+        padding: 20px 0px;
+    }
+}
