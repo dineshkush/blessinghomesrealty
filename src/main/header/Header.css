@@ -80,3 +80,9 @@ li.nav-item.request_call_back {
     border: 1px solid #de9e53;
     color: #fff;
 }
+.request_popup .modal-header h4 {
+    font-size: 18px !important;
+    margin-bottom: 0px !important;
+    line-height: 22px;
+    font-weight: 600;
+}

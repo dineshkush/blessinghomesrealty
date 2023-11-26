@@ -113,7 +113,7 @@ function Header(props) {
         </nav>
         {/* Modal  */}
         <div
-          className="modal fade"
+          className="modal fade request_popup"
           id="exampleModal"
           tabIndex="-1"
           aria-labelledby="exampleModalLabel"
@@ -122,9 +122,9 @@ function Header(props) {
           <div className="modal-dialog modal-dialog-centered">
             <div className="modal-content">
               <div className="modal-header">
-                <h1 className="modal-title fs-5" id="exampleModalLabel">
-                  Modal title
-                </h1>
+                <h4 className="modal-title fs-5" id="exampleModalLabel">
+                  Request Call Back
+                </h4>
                 <button
                   type="button"
                   className="btn-close"

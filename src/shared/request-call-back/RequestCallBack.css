@@ -1,0 +1,24 @@
+.popup_form input, .popup_form input[type="text"], .popup_form input[type="password"], .popup_form input[type="email"], .popup_form input[type="number"], .popup_form select, .popup_form textarea {
+    outline: none;
+    box-sizing: border-box;
+    display: block;
+    background-color: #fbfdff;
+    font-size: 16px;
+    border: 1px solid #d5d5d5;
+    opacity: 1;
+    box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    width: 100%;
+    padding: 12px 15px;
+}
+.popup_form textarea, .popup_form input {
+    margin-bottom: 25px;
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #d5d5d5 !important;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.05);
+}
+.popup_form textarea:focus-visible {
+    outline: none;
+}
