@@ -6,7 +6,7 @@ function Contact({phone, email, address, website}) {
     <section className="contact_section">
       <div className="container">
         <div className="row">
-          <div className="col-md-8 col-12">
+          <div className="col-md-7 col-12">
             <section id="contact">
               <div className="contact_heading">
                 <h3>
@@ -61,7 +61,7 @@ function Contact({phone, email, address, website}) {
             </section>
           </div>
 
-          <div className="col-md-4 col-12">
+          <div className="col-md-5 col-12">
             <div className="contact_heading">
               <h3>
                 <i class="fa-solid fa-map-location-dot"></i> Office Address
