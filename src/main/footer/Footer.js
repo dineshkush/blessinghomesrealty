@@ -42,7 +42,7 @@ function Footer(props) {
                 <h4>Contact Info</h4>
                 <ul>
                   <li>
-                  <i class="fa-solid fa-thumbtack"></i> {props.address}
+                  <i className="fa-solid fa-thumbtack"></i> {props.address}
                   </li>
                   <li>
                   <i className="fa-solid fa-phone"></i> {props.phone}

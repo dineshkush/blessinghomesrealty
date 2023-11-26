@@ -1,0 +1,16 @@
+.counter_area {
+    background-color: #de9e53;
+    padding: 40px 0px;
+}
+.counter_item .counter {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.counter_item h5 {
+    color: #fff;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}

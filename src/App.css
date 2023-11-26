@@ -14,18 +14,28 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
 }
 .site_btn {
-  background-color: #de9e53;
-  border: 1px solid #de9e53;
-  color: #000;
-  padding: 11px 17px;
+  background-color: #de9e53 !important;
+  border: 1px solid #de9e53 !important;
+  color: #fff;
+  padding: 11px 19px;
   font-size: 15px;
   line-height: 22px;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 10px;
   transition: all 0.5s;
 }
 .site_btn:hover {
-  background-color: transparent;
-  border: 1px solid #de9e53;
+  background-color: transparent !important;
+  border: 1px solid #de9e53 !important;
   color: #de9e53;
+}
+.site_title h4 {
+  color: #de9e53;
+  font-size: 18px;
+  line-height: 22px;
+}
+.site_title h3 {
+  font-size: 32px;
+  line-height: 44px;
+  text-transform: capitalize;
 }
