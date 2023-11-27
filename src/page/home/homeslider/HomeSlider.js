@@ -23,7 +23,7 @@ function HomeSlider() {
                 </p>
                 <Link
                   className="btn site_btn border_btn"
-                  to="/book-inspection"
+                  to="/contact-us"
                   tabIndex="0"
                 >
                   Make An Enquiry
@@ -47,7 +47,7 @@ function HomeSlider() {
                 </p>
                 <Link
                   className="btn site_btn border_btn"
-                  to="/book-inspection"
+                  to="/contact-us"
                   tabIndex="0"
                 >
                   Make An Enquiry

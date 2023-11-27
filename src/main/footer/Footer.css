@@ -9,7 +9,9 @@ footer p, footer a, footer h4, footer li, footer strong {
 .footer_area {
     padding: 70px 0px;
 }
-
+.footer_logo img {
+    width: 160px;
+}
 .footer_area h4 {
     font-size: 20px;
     color: #de9e53;
@@ -76,13 +78,23 @@ footer p, footer a, footer h4, footer li, footer strong {
 
 
 @media (max-width:480px) {
-    .our_project_sec {
-        padding: 80px 0px;
+    .footer_area {
+        padding: 40px 0px;
     }
     .footer_nav {
         margin-bottom: 40px;
     }
     .footer_contact_info {
+        margin-bottom: 0px;
+    }
+    .footer_about {
         margin-bottom: 40px;
     }
+    .footer_logo {
+        margin-bottom: 40px;
+    }
+    .footer_logo img {
+        width: 100px;
+    }
+    
 }

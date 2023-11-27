@@ -113,3 +113,21 @@
 .contact_form_box textarea:focus-visible {
     outline: none;
 }
+
+@media (max-width: 480px) {
+    .contact_section {
+        padding: 40px 0px;
+    }
+    .contact_form_box input, .contact_form_box input[type="text"], .contact_form_box input[type="password"], .contact_form_box input[type="email"], .contact_form_box input[type="number"], .contact_form_box select, .contact_form_box textarea {
+        font-size: 12px;
+        padding: 13px 10px;
+        margin-bottom: 10px;
+    }
+    .contact_form_box textarea, .contact_form_box input {
+        padding: 13px 10px;
+        margin-bottom: 10px;
+    }
+    .contact_location_box ul.contact-details li {
+        padding: 10px 0px 20px 65px;
+    }
+}

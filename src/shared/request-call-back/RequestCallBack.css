@@ -22,3 +22,15 @@
 .popup_form textarea:focus-visible {
     outline: none;
 }
+
+@media (max-width: 480px) {
+    .popup_form input, .popup_form input[type="text"], .popup_form input[type="password"], .popup_form input[type="email"], .popup_form input[type="number"], .popup_form select, .popup_form textarea {
+        font-size: 12px;
+        padding: 13px 10px;
+        margin-bottom: 10px;
+    }
+    .popup_form textarea, .popup_form input {
+        padding: 13px 10px;
+        margin-bottom: 10px;
+    }
+}

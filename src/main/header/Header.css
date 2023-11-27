@@ -47,6 +47,9 @@
 .header_social_media > ul > li a:hover, .header_social_media > ul > li a i:hover {
     color: #000;
 }
+.navbar-brand img {
+    width: 70px;
+}
 .nav_header .navbar-nav {
     padding: 10px 0px;
 }
@@ -86,22 +89,92 @@ li.nav-item.request_call_back {
     line-height: 22px;
     font-weight: 600;
 }
+.sticky_email {
+    position: fixed;
+    right: 38px;
+    bottom: 30px;
+    z-index: 9;
+}
+.sticky_email .email_btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+.sticky_email .email_btn i {
+    background-color: #bf8744;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.sticky_phone {
+    position: fixed;
+    right: 38px;
+    bottom: 90px;
+    z-index: 9;
+}
+.sticky_phone .stickyphone {
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+}
+.sticky_phone .stickyphone i {
+    background-color: #bf8744;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+}
 
 
 @media (max-width: 480px) {
     .top_header {
         display: none;
     }
+    nav.navbar {
+        padding: 0px;
+    }
+    .navbar-brand img {
+        width: 60px;
+    }
     button.navbar-toggler {
         box-shadow: none !important;
     }
+    button.navbar-toggler .navbar-toggler-icon {
+        font-size: 16px;
+    }
     div#navbarSupportedContent {
         position: absolute;
-        top: 52px;
+        top: 67px;
         z-index: 9;
         background-color: #fff;
         width: 100%;
         left: 0;
         right: 0;
+    }
+    .sticky_phone {
+        right: 22px;
+    }
+    .sticky_phone .stickyphone i {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 18px;
+    }
+    
+    .sticky_email {
+        right: 22px;
+    }
+    .sticky_email .email_btn i {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 20px;
     }
 }
