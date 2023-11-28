@@ -29,10 +29,10 @@ function RequestCallBack() {
 
     emailjs
       .send(
-        "service_fqyaffm",
-        "template_ia7iu3l",
+        "service_rzlyyp1",
+        "template_9l7bi35",
         emailData,
-        "IcEchkqZMhhopM8vK"
+        "vFo*69)2WjU[L"
       )
       .then(
         (response) => {
