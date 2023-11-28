@@ -108,7 +108,7 @@ function Contact({phone, email, address, website}) {
                     </div>
                     <div className="col-md-12">
                       <textarea
-                        name="comments"
+                        name="message"
                         cols="40"
                         rows="3"
                         value={emailData.message}
