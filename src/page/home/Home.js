@@ -172,7 +172,7 @@ function Home() {
                 <a
                   href="/contact-us"
                   className="btn site_btn">
-                  Search Now
+                  Explore Now
                 </a>
               </div>
             </div>

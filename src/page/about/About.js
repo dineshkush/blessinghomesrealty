@@ -10,11 +10,11 @@ function About() {
           <div className="col-lg-7">
             <div className="site_title">
               <h4>About</h4>
-              <h3>Blessing Homes Realty</h3>
+              <h3>Homes Fynder</h3>
             </div>
 
             <p>
-              At Blessing Homes Realty, we are more than just a real estate
+              At Homes Fynder, we are more than just a real estate
               agency; we are your partners in finding your dream home in the
               thriving city of Gurgaon/Gurugram. With a passion for excellence
               and a commitment to exceptional service, we have established
@@ -22,7 +22,7 @@ function About() {
             </p>
 
             <p>
-              Blessing Homes Realty was founded with a vision to redefine the
+              Homes Fynder was founded with a vision to redefine the
               real estate experience for our clients. Our journey began with a
               deep understanding of the unique dynamics of Gurgaon/Gurugram's
               real estate market. Over the years, we have honed our expertise to

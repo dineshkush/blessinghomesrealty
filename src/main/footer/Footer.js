@@ -18,7 +18,7 @@ function Footer(props) {
               <div className="footer_about">
                 <h4>About</h4>
                 <p>
-                  At Blessing Homes Realty, we are more than just a real estate
+                  At Homes Fynder, we are more than just a real estate
                   agency; we are your partners in finding your dream home in the
                   thriving city of Gurgaon/Gurugram.
                 </p>
@@ -68,7 +68,7 @@ function Footer(props) {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <p>© Copyright 2023 By Blessing Homes Realty</p>
+              <p>© Copyright 2023 By Homes Fynder</p>
             </div>
           </div>
         </div>
