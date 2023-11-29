@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 import RequestCallBack from "../../shared/request-call-back/RequestCallBack";
-import Logo from "../../img/logo.png";
+// import Logo from "../../img/logo.png";
 
 function Header(props) {
   return (
@@ -61,7 +61,8 @@ function Header(props) {
           <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container">
               <Link className="navbar-brand" to="/">
-                <img src={Logo} alt="Logo" className="img-fluid" />
+              <h1>Homes Fynder</h1>
+                {/* <img src={Logo} alt="Logo" className="img-fluid" /> */}
               </Link>
               <button
                 className="navbar-toggler"

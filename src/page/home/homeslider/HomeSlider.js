@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./HomeSlider.css";
+import HomeFirstBanner from "../../../img/home-first-banner.jpg";
+import HomeSecondBanner from "../../../img/home-second-banner.jpg";
 
 function HomeSlider() {
   return (
@@ -9,7 +11,7 @@ function HomeSlider() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="https://cofynd-staging.s3.ap-south-1.amazonaws.com/images/original/ac3a7c2b952f539f496b35acf443725bbd30fb86.jpg"
+              src={HomeFirstBanner}
               className="d-block w-100"
               alt="Slide 1" />
             <div className="carousel-caption d-md-block">
@@ -18,8 +20,7 @@ function HomeSlider() {
                 Unlock Your Dream Home.
                 </h3>
                 <p>
-                  You will be moving in the right direction with Blessing
-                  Homes Realty.
+                  You will be moving in the right direction with Homes Fynder.
                 </p>
                 <Link
                   className="btn site_btn border_btn"
@@ -33,7 +34,7 @@ function HomeSlider() {
           </div>
           <div className="carousel-item">
             <img
-              src="https://cofynd-staging.s3.ap-south-1.amazonaws.com/images/original/ac3a7c2b952f539f496b35acf443725bbd30fb86.jpg"
+              src={HomeSecondBanner}
               className="d-block w-100"
               alt="Slide 2" />
             <div className="carousel-caption d-md-block">

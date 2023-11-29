@@ -1,5 +1,12 @@
 import React from "react";
 import "./Project.css";
+import CBSDeveloper from "../../img/cbs-developer-img.jpg";
+import VictoryFloor from "../../img/victory-floor-img.jpg";
+import TrehanBuilderFloors from "../../img/Trehan-Builder-Floors.jpg";
+import SushantLok1 from "../../img/Sushant-Lok-1.jpg";
+import DLFCityPhaseI from "../../img/DLF-City-Phase-I.jpg";
+import DLFCityPhase4 from "../../img/DLF-City-Phase-4.jpg";
+
 
 function Project() {
   return (
@@ -19,8 +26,8 @@ function Project() {
             <div className="project_item">
               <div className="img-box">
                 <img
-                  src="http://utouchdesign.com/themes/realfun/images/popular-location-01.jpg"
-                  alt=""
+                  src={CBSDeveloper}
+                  alt="CBS Developers"
                   className="img-fluid"
                 />
                 <div className="utf-cat-img-box-content visible">
@@ -34,8 +41,8 @@ function Project() {
             <div className="project_item">
               <div className="img-box">
                 <img
-                  src="http://utouchdesign.com/themes/realfun/images/popular-location-02.jpg"
-                  alt=""
+                  src={VictoryFloor}
+                  alt="Victory Floors"
                   className="img-fluid"
                 />
                 <div className="utf-cat-img-box-content visible">
@@ -49,8 +56,8 @@ function Project() {
             <div className="project_item">
               <div className="img-box">
                 <img
-                  src="http://utouchdesign.com/themes/realfun/images/popular-location-03.jpg"
-                  alt=""
+                  src={TrehanBuilderFloors}
+                  alt="Trehan Builder Floors"
                   className="img-fluid"
                 />
                 <div className="utf-cat-img-box-content visible">
@@ -64,8 +71,8 @@ function Project() {
             <div className="project_item">
               <div className="img-box">
                 <img
-                  src="http://utouchdesign.com/themes/realfun/images/popular-location-04.jpg"
-                  alt=""
+                  src={SushantLok1}
+                  alt="Sushant Lok 1"
                   className="img-fluid"
                 />
                 <div className="utf-cat-img-box-content visible">
@@ -79,8 +86,8 @@ function Project() {
             <div className="project_item">
               <div className="img-box">
                 <img
-                  src="http://utouchdesign.com/themes/realfun/images/popular-location-05.jpg"
-                  alt=""
+                  src={DLFCityPhaseI}
+                  alt="DLF City Phase I"
                   className="img-fluid"
                 />
                 <div className="utf-cat-img-box-content visible">
@@ -94,8 +101,8 @@ function Project() {
             <div className="project_item">
               <div className="img-box">
                 <img
-                  src="http://utouchdesign.com/themes/realfun/images/popular-location-06.jpg"
-                  alt=""
+                  src={DLFCityPhase4}
+                  alt="DLF City Phase 4"
                   className="img-fluid"
                 />
                 <div className="utf-cat-img-box-content visible">
@@ -110,7 +117,7 @@ function Project() {
               <div className="img-box">
                 <img
                   src="http://utouchdesign.com/themes/realfun/images/popular-location-06.jpg"
-                  alt=""
+                  alt="South City 2"
                   className="img-fluid"
                 />
                 <div className="utf-cat-img-box-content visible">
@@ -125,7 +132,7 @@ function Project() {
               <div className="img-box">
                 <img
                   src="http://utouchdesign.com/themes/realfun/images/popular-location-06.jpg"
-                  alt=""
+                  alt="DLF City Phase 2"
                   className="img-fluid"
                 />
                 <div className="utf-cat-img-box-content visible">

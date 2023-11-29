@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css"
-// import aboutImg from "../../img/about-img.jpg"
+import aboutImg from "../../img/about-img.jpg"
 
 function About() {
   return (
@@ -39,7 +39,7 @@ function About() {
           </div>
 
           <div className="col-lg-5">
-            {/* <img src={aboutImg} alt="Home" className="img-fluid" /> */}
+            <img src={aboutImg} alt="Home" className="img-fluid" />
           </div>
         </div>
       </div>
