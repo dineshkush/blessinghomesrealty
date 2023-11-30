@@ -1,5 +1,8 @@
+header.header_area {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
 .top_header {
-    background-color: #de9e53;
+    background-color: #ff6700;
     padding: 8px 0px;
 }
 .top_bar_contact > ul {
@@ -48,7 +51,7 @@
     color: #000;
 }
 .navbar-brand img {
-    width: 70px;
+    width: 100px;
 }
 .nav_header .navbar-nav {
     padding: 10px 0px;
@@ -62,15 +65,15 @@
     font-weight: 500;
 }
 .nav_header ul.navbar-nav li a.active {
-    color: #de9e53;
+    color: #ff6700;
 }
 li.nav-item.request_call_back {
     margin-left: 15px;
 }
 .request_call_back .header_btn {
     background-color: transparent;
-    border: 1px solid #de9e53;
-    color: #de9e53;
+    border: 1px solid #ff6700;
+    color: #ff6700;
     padding: 11px 19px !important;
     font-size: 15px;
     line-height: 22px;
@@ -79,8 +82,8 @@ li.nav-item.request_call_back {
     transition: all 0.5s;
 }
 .request_call_back .header_btn:hover {
-    background-color: #de9e53;
-    border: 1px solid #de9e53;
+    background-color: #ff6700;
+    border: 1px solid #ff6700;
     color: #fff;
 }
 .request_popup .modal-header h4 {
@@ -101,7 +104,7 @@ li.nav-item.request_call_back {
     padding: 0;
 }
 .sticky_email .email_btn i {
-    background-color: #bf8744;
+    background-color: #ff6700;
     color: #fff;
     width: 50px;
     height: 50px;
@@ -122,7 +125,7 @@ li.nav-item.request_call_back {
     display: inline-block;
 }
 .sticky_phone .stickyphone i {
-    background-color: #bf8744;
+    background-color: #ff6700;
     color: #fff;
     width: 50px;
     height: 50px;

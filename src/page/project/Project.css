@@ -42,7 +42,7 @@
     transition: 0.3s ease-out;
 }
 .project_item .img-box:hover:before {
-    background-color: #de9e53;
+    background-color: #0a7aa3;
     opacity: 0.85;
 }
 .project_item .utf-cat-img-box-content {
