@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./home.css";
 import HomeSlider from "./homeslider/HomeSlider";
 import About from "../about/About";
@@ -10,6 +11,7 @@ import TrehanBuilderFloors from "../../img/Trehan-Builder-Floors.jpg";
 import SushantLok1 from "../../img/Sushant-Lok-1.jpg";
 import DLFCityPhaseI from "../../img/DLF-City-Phase-I.jpg";
 import DLFCityPhase4 from "../../img/DLF-City-Phase-4.jpg";
+
 
 function Home() {
   return (
@@ -145,12 +147,12 @@ function Home() {
 
           <div className="row mt-4 text-center">
             <div className="col-lg-12">
-              <a
+              <Link
                 className="btn site_btn border_btn"
                 tabindex="0"
-                href="/our-project">
+                to="/our-project">
                 View All Projects
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -169,11 +171,11 @@ function Home() {
                   Power your search with our Resideo real estate platform, for<br />
                   timely listings and a seamless experience.
                 </p>
-                <a
-                  href="/contact-us"
+                <Link
+                  to="/contact-us"
                   className="btn site_btn">
                   Explore Now
-                </a>
+                </Link>
               </div>
             </div>
           </div>
