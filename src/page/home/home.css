@@ -46,6 +46,14 @@
     font-size: 16px;
     line-height: 26px;
 }
+/* .videos_section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.video_box iframe {
+    width: 100%;
+    height: 410px;
+} */
 
 @media (max-width:480px) {
     .counter_item h5 {
